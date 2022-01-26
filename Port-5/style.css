@@ -1,0 +1,198 @@
+@import 'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+*{
+     padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+    list-style: none;
+    
+    
+}
+
+
+header{
+    background: var(--dark);
+}
+
+.container{
+    max-width:1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right:2rem;
+    text-transform:uppercase;
+    transition: all .3s ease; 
+    font-size: 21px;
+    /*for smooth hovering */
+}
+
+header nav .left a:hover{
+    color:var(--primary);
+}
+header nav {
+    padding:2rem 0;
+}
+header .right a{
+    font-size: 21px;
+    font-family:'Poppins',sans-serif;
+    color: white;
+    text-decoration: none;
+
+}
+.hero{
+    padding:3rem 0;
+}
+.hero .left img{
+    width: 707px;
+    height: 485px;
+    border-radius: 42px;
+}
+
+.hero .right{
+    color:var(--pure);
+}
+.hero .right h6{
+    font-size:1.6rem;
+    color:var(--primary);
+    margin-bottom:0.5rem;
+    font-size: 3rem;
+    line-height: 85px;
+}
+.hero .right h1{
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    line-height: 48px;
+}
+
+.hero .right p{
+    line-height:1.9;
+    margin-bottom:2rem;
+}
+.hero .right {
+   margin-top: 2rem;
+   padding-left: 3rem;
+}
+section{
+    padding:6rem 0;
+}
+section.about .about-me-img{
+    height:400px;
+    width: 500px;
+    
+    border-radius: 30px;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size:2.7rem;
+    font-weight:700;
+}
+
+section.about h3{
+    font-size: 1.79rem;
+    margin-bottom: 1rem;
+    font-weight: 550;
+}
+
+section.about p{
+    padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: 500px;
+    line-height: 2;
+    margin-bottom: 2rem;
+    font-size: 19px;
+}
+
+section.myskills  .img{
+    height:500px;
+    width: 500px;
+    padding-right: 47px;
+    border-radius: 30px;
+    
+}
+
+section.myskills h1{
+   margin-bottom: 1rem;
+    font-size:2.3rem;
+    font-weight:400;
+    
+    font-weight:700;
+}
+section.myskills h3{
+    font-size: 1.79rem;
+    margin-bottom:1rem;
+    font-weight: 400;
+       
+    padding-left: 15px;
+    
+    
+}
+section.myskills h3 li{
+background: #333;
+width: 500px;
+margin: 60px auto;
+color: black;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 15px;
+    border: 1px solid rgba(0, 0, 0, 3);
+    border-radius: 11px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+    width: 629px;
+    padding-left: 0px;
+}
+.bar span{
+    height: 29px;
+    float: left;
+    background: #2187e7;
+}
+.html{
+    width: 70%;
+}
+.css{
+    width:60%;
+}
+.JAVASCRIPT{
+    width:39%;
+}
+.cpp{
+width:95%;
+}
+.py{
+    width:70%;
+}
+/* .text{
+text-align: center;
+justify-content: center;
+display: flex;
+} */
+.this{
+    float: right;
+    /* width: 300px; */
+    padding: 0 10px 0 0;
+    height: 56px;
+    position: relative;
+    top: -70px;
+}
